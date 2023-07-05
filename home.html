@@ -5,26 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
   <title>Weather App</title>
+  <script src="./index.js"></script>
 </head>
 <body>
   <div class="container">
 
     <div class="search">
-      <input class="searchBox" placeholder="enter city name">
-          <button class="i-search">
+      <input class="searchBox" type="search" placeholder="enter city name">
+          <button onclick="
+          showWeather()" class="i-search">
           <img class="icon-search" src="./images/search.png" >
          </button>
         </div>
     
     <img class="img-clouds" src="./images/clouds.png">
 
-<h1>22°c</h1>
-<h2>New York</h2>
+<h1 class="temp">22°c</h1>
+<h2 class="city">New York</h2>
 <div class="add-info">
   <div class="humidity">
 <img class="img-humidity" src="./images/humidity.png">
 <div class="humidity-2">
-  <h3>50%</h3>
+  <h3 class="js-humidity">50%</h3>
 <p>Humidity</p>
 </div>
 
@@ -32,11 +34,15 @@
 <div class="wind">
 <img class="img-wind" src="./images/wind.png">
 <div class="wind-2">
-<h3>15 km/h</h3>
+<h3 class="js-wind">15 km/h</h3>
 <p>Wind Speed</p>
 </div>
 </div>
 </div>
   </div>
+  
+
+  
 </body>
+
 </html>
