@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: po;
+  font-family:  sans-serif;
 }
 body {
   background-color: #222;
@@ -98,4 +98,13 @@ h2{
   display: flex;
   margin-left: 40px;
 }
-
+ .weather2 {
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather {
+  display: none;;
+} 
